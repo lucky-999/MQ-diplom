@@ -186,7 +186,7 @@ a {
 
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) {
 	.header {
 		padding: 2.5% 10% 5.5% 10%;
 	}
@@ -201,31 +201,40 @@ a {
 	}
 
 	.header-title-container {
-		padding-top: 70%;
+		padding-top: 15%;
 	}
 
 	.header-title-block {
-	padding-left: 4.5%;
+	padding-left: 0.6%;
+	font-size: 3.4vw;
+	line-height: 4vw;
 	}
 
 	.header-title-description {
-	padding-top: 2%;
-	padding-left: 14%;
+	padding-top: 0%;
+	padding-left: 20%;
+	}
+
+	.header-app-links {
+		padding-top: 11%;
+		justify-content: space-between;
+		width: 74%;
+		margin: 0 auto;
 	}
 
 	.mobile-app-link-button {
-	width: 40vw;
-	height: 10vw;
+	width: 20vw;
+	height: 5vw;
 	border-radius: 40px;
 	margin: 0;
-	font-size: 1.5vw;
+	font-size: 1vw;
 	text-align: left;
 	}
 
 	.app-icon {
 	
 	fill: #fff;
-	width: 5vw;
+	width: 2.5vw;
 	transform: translate(-100%,60%);
 	}
 
