@@ -47,11 +47,11 @@ a {
 	background-color: #080d30;
 }
 
-.header-logo-container {
+.header-logo-container, .footer-logo-container{
 	text-align: center;
 }
 
-.header-logo {
+.header-logo, .footer-logo {
 	fill: #fff;
 	width: 40%;
 }
@@ -65,7 +65,7 @@ a {
 	line-height: 9vw;
 }
 
-.header-title, .header-title-description {
+.header-title, .header-title-description, .footer-title, .footer-title-description {
 	display: block;
 }
 
@@ -77,8 +77,11 @@ a {
 	padding-left: 14%;
 }
 
-.header-app-links {
+.header-app-links-container {
 	padding-top: 27%;
+}
+
+.app-links {
 	width: 100%;
 	position: relative;
 	z-index: 10;
@@ -89,7 +92,7 @@ a {
 	width: 100%;
 	height: 11vw;
 	background-color: #5e42b0;
-	border-radius: 25px;
+	border-radius: 10vw;
 	font-size: 2.5vw;
 	position: relative;	
 }
@@ -125,10 +128,77 @@ a {
 	margin-top: 5%;
 }
 
+.footer {
+	background-color: #0a0e34;
+	position: relative;
+	font-family: OpenSans, arial, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 31% 6.25% 3% 6.25%;
+}
+
+.footer::after {
+	content: "";
+	background-image: url(../images/game_767.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.1;
+	background-color: #080d30;
+}
+
+.square-logo-container {
+	position: relative;
+	margin: 0 auto;
+	z-index: 10;
+	background-color: #5e42b0;
+	border-radius: 3vw;
+	width: 22%;
+}
+
+.square-logo-container:hover {
+	background-color: #321a77;
+}
+
+.square-logo-container:hover .square-logo {
+	fill: #6a6b6b;
+}
+
+.square-logo {
+	fill: #fff;
+}
+
+.footer-title-container {
+	padding: 18.75% 0 0 0;
+	text-align: justify;
+}
+
+.footer-app-links-container {
+	padding-top: 23%;
+}
+
+.footer-title {
+	font-size: 7.5vw;
+}
+
+.footer-title-description {
+	font-size: 3vw;
+	color: #9b8ec1;
+}
+
+.footer-logo-container {
+	padding-top: 28%;
+}
+
 @media (min-width: 641px) {
-	.header-app-links {
-	display: flex;
-	justify-content: space-between;
+	.app-links-list {
+		display: flex;
+		justify-content: space-between;
 	}
 }
 
@@ -138,8 +208,8 @@ a {
 	}
 
 	.header::after {
-	content: "";
-	background-image: url(../images/football_1280.jpg);
+		content: "";
+		background-image: url(../images/football_1280.jpg);
 	}
 	
 	.header-logo {
@@ -151,28 +221,27 @@ a {
 	}
 
 	.header-title-block {
-	padding-left: 4.5%;
+		padding-left: 4.5%;
 	}
 
 	.header-title-description {
-	padding-top: 2%;
-	padding-left: 14%;
+		padding-top: 2%;
+		padding-left: 14%;
 	}
 
 	.mobile-app-link-button {
-	width: 40vw;
-	height: 10vw;
-	border-radius: 40px;
-	margin: 0;
-	font-size: 1.5vw;
-	text-align: left;
+		width: 40vw;
+		height: 10vw;
+		margin: 0;
+		font-size: 1.5vw;
+		text-align: left;
 	}
 
 	.app-icon {
-	
-	fill: #fff;
-	width: 5vw;
-	transform: translate(-100%,60%);
+
+		fill: #fff;
+		width: 5vw;
+		transform: translate(-100%,60%);
 	}
 
 	.bold-text {
@@ -180,9 +249,38 @@ a {
 	}
 
 	.button-content {	
-	margin: 0 0 0 25%;
-	transform: translate(0%,-10%)
-}
+		margin: 0 0 0 25%;
+		transform: translate(0%,-10%)
+	}
+
+	.footer {
+		padding: 16% 5% 2.5% 5%;
+	}
+
+	.footer::after {
+	content: "";
+	background-image: url(../images/game_1280.jpg);
+	}
+
+	.footer-title-container {
+		padding: 10% 0 0 0;
+	}
+
+	.footer-app-links-container {
+		padding-top: 37%;
+	}
+
+	.footer-title {
+		font-size: 10vw;
+	}
+
+	.footer-title-description {
+		font-size: 4.5vw;
+	}
+
+	.footer-logo-container {
+		padding-top: 6.5%;
+	}
 
 }
 
@@ -192,8 +290,8 @@ a {
 	}
 
 	.header::after {
-	content: "";
-	background-image: url(../images/football_1920.jpg);
+		content: "";
+		background-image: url(../images/football_1920.jpg);
 	}
 	
 	.header-logo {
@@ -205,37 +303,38 @@ a {
 	}
 
 	.header-title-block {
-	padding-left: 0.6%;
-	font-size: 3.4vw;
-	line-height: 4vw;
+		padding-left: 0.6%;
+		font-size: 3.4vw;
+		line-height: 4vw;
 	}
 
 	.header-title-description {
-	padding-top: 0%;
-	padding-left: 20%;
+		padding-top: 0%;
+		padding-left: 20%;
 	}
 
-	.header-app-links {
+	.header-app-links-container {
 		padding-top: 11%;
-		justify-content: space-between;
+	}
+
+	.app-links {
 		width: 74%;
 		margin: 0 auto;
 	}
 
 	.mobile-app-link-button {
-	width: 20vw;
-	height: 5vw;
-	border-radius: 40px;
-	margin: 0;
-	font-size: 1vw;
-	text-align: left;
+		width: 20vw;
+		height: 5vw;
+		margin: 0;
+		font-size: 1vw;
+		text-align: left;
 	}
 
 	.app-icon {
-	
-	fill: #fff;
-	width: 2.5vw;
-	transform: translate(-100%,60%);
+
+		fill: #fff;
+		width: 2.5vw;
+		transform: translate(-100%,60%);
 	}
 
 	.bold-text {
@@ -243,7 +342,52 @@ a {
 	}
 
 	.button-content {	
-	margin: 0 0 0 25%;
-	transform: translate(0%,-10%)
-}
+		margin: 0 0 0 25%;
+		transform: translate(0%,-10%)
+	}
+
+	.footer {
+		padding: 11% 0 2.5% 0;	
+	}
+
+	.footer::after {
+	content: "";
+	background-image: url(../images/game_1920.jpg);
+	}
+	
+	.footer-square-logo-container {
+		display: flex;
+		position: relative;
+		z-index: 10;
+		justify-content: space-between;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.footer-title {
+		font-size: 4vw;
+	}
+
+	.footer-title-description {
+		font-size: 1.5vw;
+	}
+
+	.footer-app-links-container {
+		padding-top: 8%;
+	}
+
+	.footer-app-links-container {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.footer-logo {
+		width: 9.6%;
+	}
+
+	.footer-logo-container {
+		padding-top: 12%;
+	}
+
+	
 }
