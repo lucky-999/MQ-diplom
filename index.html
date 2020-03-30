@@ -78,12 +78,34 @@
 	</header>
 
 	<main class="main">
-		здесь будет контент
+		
+		<article class="article athlets">
+			
+			<div class="article-title-container athlets-article-title-container">
+				<h2 class="article-title athlets-article-title">athlets</h2>
+			</div>
+
+			<div class="article-picture-container">
+				<picture class="article-picture">
+					<source 
+					media="(max-width: 640px)"
+					srcset="images/footballer_192.png">
+					<source
+					media="(min-width: 641px) and (max-width: 960px)"
+					srcset="images/footballer_497.png">
+					<source
+					media="(min-width: 961px)"
+					srcset="images/footballer_566.png">
+					<img src="images/footballer_192.png" alt="footballer picture">
+				</picture>
+			</div>
+
+		</article>
+
 	</main>
 
 	<footer class="footer">
 		<div class="footer-square-logo-container">
-			<a class="footer-square-logo-link" href="#">
 				<div class="square-logo-container">
 					<svg class="square-logo" viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/svg">
 						<g fill-rule="evenodd">
@@ -92,9 +114,6 @@
 						</g>
 					</svg>
 				</div>
-			</a>
-			
-
 			<div class="footer-title-container">
 				<h1 class="footer-title-block">
 					<span class="footer-title">download app</span>

@@ -128,6 +128,10 @@ a {
 	margin-top: 5%;
 }
 
+.article-picture {
+	
+}
+
 .footer {
 	background-color: #0a0e34;
 	position: relative;
@@ -161,16 +165,9 @@ a {
 	width: 22%;
 }
 
-.square-logo-container:hover {
-	background-color: #321a77;
-}
-
-.square-logo-container:hover .square-logo {
-	fill: #6a6b6b;
-}
-
 .square-logo {
 	fill: #fff;
+	margin: auto;
 }
 
 .footer-title-container {
@@ -354,22 +351,31 @@ a {
 	content: "";
 	background-image: url(../images/game_1920.jpg);
 	}
+
+	.footer-title-container {
+		padding: 0;
+		margin: auto 0;
+	}
 	
 	.footer-square-logo-container {
 		display: flex;
-		position: relative;
-		z-index: 10;
 		justify-content: space-between;
 		width: 60%;
 		margin: 0 auto;
 	}
 
+	.square-logo-container {
+		width: 11vw;
+		border-radius: 2vw;
+		margin: 0;
+	}
+
 	.footer-title {
-		font-size: 4vw;
+		font-size: 5vw;
 	}
 
 	.footer-title-description {
-		font-size: 1.5vw;
+		font-size: 2vw;
 	}
 
 	.footer-app-links-container {
