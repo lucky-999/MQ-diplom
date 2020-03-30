@@ -57,7 +57,7 @@ a {
 }
 
 .header-title-container {
-	padding-top: 40%;	
+	margin-top: 40%;	
 }
 
 .header-title-block {
@@ -78,7 +78,7 @@ a {
 }
 
 .header-app-links-container {
-	padding-top: 27%;
+	margin-top: 27%;
 }
 
 .app-links {
@@ -171,12 +171,12 @@ a {
 }
 
 .footer-title-container {
-	padding: 18.75% 0 0 0;
+	margin: 18.75% 0 0 0;
 	text-align: justify;
 }
 
 .footer-app-links-container {
-	padding-top: 23%;
+	margin: 23% 0 0 0;
 }
 
 .footer-title {
@@ -189,7 +189,7 @@ a {
 }
 
 .footer-logo-container {
-	padding-top: 28%;
+	margin: 28% 0 0 0;
 }
 
 @media (min-width: 641px) {
@@ -214,7 +214,7 @@ a {
 	}
 	
 	.header-title-container {
-		padding-top: 22.5%;
+		margin-top: 22.5%;
 	}
 
 	.header-title-block {
@@ -260,11 +260,11 @@ a {
 	}
 
 	.footer-title-container {
-		padding: 10% 0 0 0;
+		margin: 10% 0 0 0;
 	}
 
 	.footer-app-links-container {
-		padding-top: 37%;
+		margin: 37% 0 0 0;
 	}
 
 	.footer-title {
@@ -276,7 +276,7 @@ a {
 	}
 
 	.footer-logo-container {
-		padding-top: 6.5%;
+		margin: 6.5% 0 0 0;
 	}
 
 }
@@ -296,7 +296,7 @@ a {
 	}
 
 	.header-title-container {
-		padding-top: 15%;
+		margin-top: 15%;
 	}
 
 	.header-title-block {
@@ -311,7 +311,7 @@ a {
 	}
 
 	.header-app-links-container {
-		padding-top: 11%;
+		margin-top: 11%;
 	}
 
 	.app-links {
@@ -353,7 +353,6 @@ a {
 	}
 
 	.footer-title-container {
-		padding: 0;
 		margin: auto 0;
 	}
 	
@@ -379,12 +378,8 @@ a {
 	}
 
 	.footer-app-links-container {
-		padding-top: 8%;
-	}
-
-	.footer-app-links-container {
 		width: 60%;
-		margin: 0 auto;
+		margin: 8% auto 0 auto;
 	}
 
 	.footer-logo {
@@ -392,7 +387,7 @@ a {
 	}
 
 	.footer-logo-container {
-		padding-top: 12%;
+		margin: 12% 0 0 0;
 	}
 
 	
