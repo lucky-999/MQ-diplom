@@ -23,10 +23,13 @@ a {
 	font-style: normal;
 }
 
+body {
+	font-family: OpenSans, arial, sans-serif;
+}
+
 .header {
 	background-color: #0a0e34;
 	position: relative;
-	font-family: OpenSans, arial, sans-serif;
 	color: #fff;
 	text-transform: uppercase;
 	padding: 9% 6.25% 25% 6.25%;
@@ -129,18 +132,80 @@ a {
 }
 
 .main {
-	padding: 0 6.25% 0 6.25%;
 }
 
-.article-title {
+.article {
+}
+
+.article-title, .article-name {
 	font-weight: 900;
 	color: #e7e7e7;
 	text-transform: uppercase;
+}
+
+.article-title {
 	font-size: 15vw;
+	margin: 0 0 70vw 0;
+}
+
+.article-picture-container {
 }
 
 .article-picture {
 	width: 60vw;
+	position: absolute;
+}
+
+.article-number-name-text {
+	padding: 25vw 0 0 0;
+}
+
+.article-number-name {
+	display: flex;
+	align-items: center;
+}
+
+.articlecle-small-number-container {
+	width: 3.5vw;
+}
+
+.article-small-number {
+	font-weight: 900;
+	font-size: 3.5vw;
+	text-align: center;
+}
+
+.article-small-number:after {
+	display: block;
+ 	content: "";
+  	width: 100%;
+  	height: 0.8vw;
+  	background-color: #5e42b0;
+}
+
+.article-name {
+	font-size: 6vw;
+	margin: 0 0 0 3vw;
+}
+
+.article-text {
+	font-size: 4vw;
+}
+
+.article-connection {
+	background-color: #fafafa;
+}
+
+.article-collaboration {
+	background-color: #f5f4f9;
+}
+
+.article-growth {
+	background-color: #5e42b0;
+}
+
+.article-growth:nth-of-type ( n + 2) {
+	background-color: #090c35;
 }
 
 .footer {
