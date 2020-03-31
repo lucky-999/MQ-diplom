@@ -135,6 +135,7 @@ body {
 }
 
 .article {
+	margin: 7.8vw 0 0 0;
 }
 
 .article-title, .article-name {
@@ -145,7 +146,7 @@ body {
 
 .article-title {
 	font-size: 15vw;
-	margin: 0 0 70vw 0;
+	margin: 0 6.25% 70vw 6.25%;
 }
 
 .article-picture-container {
@@ -157,7 +158,7 @@ body {
 }
 
 .article-number-name-text {
-	padding: 25vw 0 0 0;
+	padding: 25vw 6.25% 25vw 6.25%;
 }
 
 .article-number-name {
@@ -175,7 +176,7 @@ body {
 	text-align: center;
 }
 
-.article-small-number:after {
+.article-small-number::after {
 	display: block;
  	content: "";
   	width: 100%;
