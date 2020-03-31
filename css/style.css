@@ -128,8 +128,19 @@ a {
 	margin-top: 5%;
 }
 
+.main {
+	padding: 0 6.25% 0 6.25%;
+}
+
+.article-title {
+	font-weight: 900;
+	color: #e7e7e7;
+	text-transform: uppercase;
+	font-size: 15vw;
+}
+
 .article-picture {
-	
+	width: 60vw;
 }
 
 .footer {
