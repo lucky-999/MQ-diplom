@@ -149,12 +149,15 @@ body {
 	margin: 0 6.25% 70vw 6.25%;
 }
 
-.article-picture-container {
+.article {
+	position: relative;
 }
 
-.article-picture {
+.article-image {
 	width: 60vw;
 	position: absolute;
+	top: 25vw;
+	left: 21.56vw;
 }
 
 .article-number-name-text {
@@ -178,10 +181,10 @@ body {
 
 .article-small-number::after {
 	display: block;
- 	content: "";
-  	width: 100%;
-  	height: 0.8vw;
-  	background-color: #5e42b0;
+	content: "";
+	width: 100%;
+	height: 0.6vw;
+	background-color: #5e42b0;
 }
 
 .article-name {
@@ -274,6 +277,14 @@ body {
 		display: flex;
 		justify-content: space-between;
 	}
+
+	.article-text-container {
+	margin: 2vw 0 0 0;
+	}
+
+	.article-connection {
+		background-color: #fff;
+	}
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -327,13 +338,43 @@ body {
 		transform: translate(0%,-10%)
 	}
 
+	.article {
+		margin: 8vw 0 0 0;
+	}
+
+	.article-title {
+		font-size: 12vw;
+		margin: 0 0 0 35vw;
+	}
+
+	.article-image {
+		top: 7vw;
+		left: -20vw;
+	}
+
+	.article-number-name-text {
+		padding: 3.5vw 5vw 3.5vw 35vw;
+	}
+
+	.article-small-number {
+		font-size: 3vw;
+	}
+
+	.article-name {
+		font-size: 4vw;
+	}
+
+	.article-text {
+		font-size: 2.5vw;
+	}
+
 	.footer {
 		padding: 16% 5% 2.5% 5%;
 	}
 
 	.footer::after {
-	content: "";
-	background-image: url(../images/game_1280.jpg);
+		content: "";
+		background-image: url(../images/game_1280.jpg);
 	}
 
 	.footer-title-container {
@@ -392,7 +433,7 @@ body {
 	}
 
 	.app-links {
-		width: 74%;
+		width: 57%;
 		margin: 0 auto;
 	}
 
@@ -420,13 +461,54 @@ body {
 		transform: translate(0%,-10%)
 	}
 
+	.article {
+		margin: 4vw 0 0 0;
+	}
+
+	.article-title {
+		font-size: 6vw;
+		margin: 0 0 0 50vw;
+	}
+
+	.article-image {
+		width: 30vw;
+		top: -1vw;
+		left: 15vw;
+	}
+
+	.article-number-name-text {
+		padding: 1.7vw 7vw 1.7vw 50vw;
+	}
+
+	.articlecle-small-number-container {
+	width: 1.7vw;
+	}
+
+	.article-small-number {
+		font-size: 1.5vw;
+	}
+
+	.article-small-number::after {
+	content: "";
+	height: 0.3vw;
+	}
+
+	.article-name {
+		font-size: 2.5vw;
+		margin: 0 0 0 1vw;
+	}
+
+	.article-text {
+		font-size: 1.2vw;
+	}
+
 	.footer {
 		padding: 11% 0 2.5% 0;	
 	}
 
 	.footer::after {
-	content: "";
-	background-image: url(../images/game_1920.jpg);
+		content: "";
+		background-image: url(../images/game_1920.jpg);
 	}
 
 	.footer-title-container {
