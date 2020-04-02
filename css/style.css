@@ -154,7 +154,7 @@ body {
 }
 
 .article-image {
-	width: 60vw;
+	width: 50vw;
 	position: absolute;
 	top: 25vw;
 	left: 21.56vw;
@@ -167,7 +167,7 @@ body {
 }
 
 .article-number-name-text {
-	padding: 25vw 6.25% 25vw 6.25%;
+	padding: 15vw 6.25% 15vw 6.25%;
 }
 
 .article-number-name {
@@ -195,6 +195,7 @@ body {
 	width: 100%;
 	height: 0.6vw;
 	background-color: #5e42b0;
+	border-radius: 30%;
 }
 
 .article:nth-of-type( 2n ) .article-growth .article-small-number::after {
@@ -370,8 +371,9 @@ body {
 	}
 
 	.article-image {
+		width: 55vw;
 		top: 7vw;
-		left: -20vw;
+		left: -15vw;
 	}
 
 	.article:nth-of-type(2n) .article-image {
