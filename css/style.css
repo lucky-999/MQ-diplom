@@ -160,10 +160,11 @@ body {
 	left: 21.56vw;
 }
 
-.article-image:nth-child(2n) {
+.article:nth-of-type( 2n ) .article-image {
 	width: 80vw;
+	top: 25vw;
+	left: 12vw;
 }
-
 
 .article-number-name-text {
 	padding: 25vw 6.25% 25vw 6.25%;
@@ -184,12 +185,20 @@ body {
 	text-align: center;
 }
 
+.article:nth-of-type( 2n ) .article-small-number {
+	color: #785ac9;
+}
+
 .article-small-number::after {
 	display: block;
 	content: "";
 	width: 100%;
 	height: 0.6vw;
 	background-color: #5e42b0;
+}
+
+.article:nth-of-type( 2n ) .article-growth .article-small-number::after {
+	background-color: #fff;
 }
 
 .article-name {
@@ -199,6 +208,10 @@ body {
 
 .article-text {
 	font-size: 4vw;
+}
+
+.article-number-name-text:nth-of-type(3n - 1) .article-text-container {
+	color: #fff;
 }
 
 .article-connection {
@@ -213,7 +226,7 @@ body {
 	background-color: #5e42b0;
 }
 
-.article-growth:nth-child(2n) {
+.article:nth-of-type( 2n ) .article-growth {
 	background-color: #090c35;
 }
 
