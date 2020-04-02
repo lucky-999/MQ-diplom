@@ -365,13 +365,27 @@ body {
 		margin: 0 0 0 35vw;
 	}
 
+	.article:nth-of-type(2n) .article-title {
+		margin: 0 0 0 4vw;
+	}
+
 	.article-image {
 		top: 7vw;
 		left: -20vw;
 	}
 
+	.article:nth-of-type(2n) .article-image {
+		width: 55vw;
+		top: 0;
+		left: 44vw;
+	}
+
 	.article-number-name-text {
 		padding: 3.5vw 5vw 3.5vw 35vw;
+	}
+
+	.article:nth-of-type(2n) .article-number-name-text {
+		padding: 3.5vw 40vw 3.5vw 4vw;
 	}
 
 	.article-small-number {
@@ -488,14 +502,28 @@ body {
 		margin: 0 0 0 50vw;
 	}
 
+	.article:nth-of-type(2n) .article-title {
+		margin: 0 0 0 10vw;
+	}
+
 	.article-image {
 		width: 30vw;
 		top: -1vw;
 		left: 15vw;
 	}
 
+	.article:nth-of-type(2n) .article-image {
+		width: 48vw;
+		top: 0vw;
+		left: 40vw;
+	}
+
 	.article-number-name-text {
 		padding: 1.7vw 7vw 1.7vw 50vw;
+	}
+
+	.article:nth-of-type(2n) .article-number-name-text {
+		padding: 1.7vw 50vw 1.7vw 10vw;
 	}
 
 	.articlecle-small-number-container {
@@ -555,7 +583,7 @@ body {
 	}
 
 	.footer-app-links-container {
-		width: 60%;
+		width: 78%;
 		margin: 8% auto 0 auto;
 	}
 
