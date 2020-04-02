@@ -160,6 +160,11 @@ body {
 	left: 21.56vw;
 }
 
+.article-image:nth-of-type(2n) {
+	width: 80vw;
+}
+
+
 .article-number-name-text {
 	padding: 25vw 6.25% 25vw 6.25%;
 }
@@ -208,7 +213,7 @@ body {
 	background-color: #5e42b0;
 }
 
-.article-growth:nth-of-type ( n + 2) {
+.article-growth:nth-child(2n) {
 	background-color: #090c35;
 }
 
@@ -315,7 +320,7 @@ body {
 	}
 
 	.mobile-app-link-button {
-		width: 40vw;
+		width: 37vw;
 		height: 10vw;
 		margin: 0;
 		font-size: 1.5vw;
