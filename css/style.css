@@ -233,6 +233,7 @@ body {
 
 .article2-image {
 	width: 100%;
+	display: block;
 }
 
 .article2-number-name-text-container {
