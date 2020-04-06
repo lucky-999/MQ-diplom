@@ -60,11 +60,11 @@ body {
 }
 
 .header-title-container {
-	margin-top: 40%;	
+	margin-top: 45%;	
 }
 
 .header-title-block {
-	font-size: 7vw;
+	font-size: 9vw;
 	line-height: 9vw;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .header-title-description {
-	padding-top: 5%;
+	padding-top: 6%;
 	padding-left: 14%;
 }
 
@@ -93,7 +93,7 @@ body {
 .mobile-app-link-button {
 	list-style: none;
 	width: 100%;
-	height: 11vw;
+	height: 10vw;
 	background-color: #5e42b0;
 	border-radius: 10vw;
 	font-size: 2.5vw;
@@ -144,6 +144,10 @@ body {
 	text-transform: uppercase;
 }
 
+.article-name {
+	color: #c1c1c1;
+}
+
 .article-title {
 	font-size: 15vw;
 	margin: 0 6.25% 70vw 6.25%;
@@ -185,7 +189,7 @@ body {
 	text-align: center;
 }
 
-.article:nth-of-type( 2n ) .article-small-number {
+.article:nth-of-type( 2n ) .article-growth .article-small-number {
 	color: #785ac9;
 }
 
@@ -198,7 +202,7 @@ body {
 	border-radius: 30%;
 }
 
-.article:nth-of-type( 2n ) .article-growth .article-small-number::after {
+.article-growth .article-small-number::after {
 	background-color: #fff;
 }
 
@@ -308,17 +312,19 @@ body {
 	z-index: 10;
 	background-color: #5e42b0;
 	border-radius: 3vw;
-	width: 22%;
+	width: 20vw;
+	height: 20vw;
 }
 
 .square-logo {
+	width: 15vw;
 	fill: #fff;
-	margin: auto;
+	margin: 15% 12%;
 }
 
 .footer-title-container {
 	margin: 18.75% 0 0 0;
-	text-align: justify;
+	text-align: center;
 }
 
 .footer-app-links-container {
@@ -326,11 +332,12 @@ body {
 }
 
 .footer-title {
-	font-size: 7.5vw;
+	font-size: 9vw;
 }
 
 .footer-title-description {
-	font-size: 3vw;
+	font-size: 4vw;
+	font-weight: 400;
 	color: #9b8ec1;
 }
 
@@ -372,6 +379,7 @@ body {
 	}
 
 	.header-title-block {
+		font-size: 8vw;
 		padding-left: 4.5%;
 	}
 
@@ -382,7 +390,7 @@ body {
 
 	.mobile-app-link-button {
 		width: 37vw;
-		height: 10vw;
+		height: 9vw;
 		margin: 0;
 		font-size: 1.5vw;
 		text-align: left;
@@ -409,8 +417,8 @@ body {
 	}
 
 	.article-title {
-		font-size: 12vw;
-		margin: 0 0 0 35vw;
+		font-size: 9vw;
+		margin: 0 0 3vw 35vw;
 	}
 
 	.article:nth-of-type(2n) .article-title {
@@ -418,39 +426,59 @@ body {
 	}
 
 	.article-image {
-		width: 55vw;
-		top: 7vw;
-		left: -15vw;
+		width: 57vw;
+		top: 5vw;
+		left: -18vw;
 	}
 
 	.article:nth-of-type(2n) .article-image {
 		width: 55vw;
-		top: 0;
+		top: -3vw;
 		left: 44vw;
 	}
 
 	.article-number-name-text {
-		padding: 3.5vw 5vw 3.5vw 35vw;
+		padding: 3.5vw 15vw 3.5vw 35vw;
 	}
 
 	.article:nth-of-type(2n) .article-number-name-text {
-		padding: 3.5vw 40vw 3.5vw 4vw;
+		padding: 3.5vw 50vw 3.5vw 4vw;
 	}
 
 	.article-small-number {
-		font-size: 3vw;
-	}
-
-	.article-name {
-		font-size: 4vw;
-	}
-
-	.article-text, .article2-text {
 		font-size: 2.5vw;
 	}
 
+	.article-name {
+		font-size: 3.5vw;
+	}
+
+	.article-text {
+		font-size: 2vw;
+	}
+
+	.article2-text {
+		font-size: 3.2vw;
+	}
+
 	.article2-name-text-container {
-	margin: 7vw 4vw 12vw 4vw;
+	margin: 7vw 10vw 12vw 5vw;
+	}
+
+	.article2-name {
+		font-size: 10vw;
+	}
+
+	.article2-number-container {
+		width: 15vw;
+		height: 15vw;
+		top: -19vw;
+	}
+
+	.article2-small-number-container {
+		width: 3vw;
+		font-size: 3vw;
+		margin: 5vw auto;
 	}
 
 	.footer {
@@ -463,11 +491,13 @@ body {
 	}
 
 	.footer-title-container {
+		text-align: center;
 		margin: 10% 0 0 0;
 	}
 
 	.footer-app-links-container {
-		margin: 37% 0 0 0;
+		margin: 37% auto 0 auto;
+		width: 87%;
 	}
 
 	.footer-title {
@@ -475,7 +505,7 @@ body {
 	}
 
 	.footer-title-description {
-		font-size: 4.5vw;
+		font-size: 4.2vw;
 	}
 
 	.footer-logo-container {
@@ -486,7 +516,7 @@ body {
 
 @media (min-width: 961px) {
 	.header {
-		padding: 2.5% 10% 5.5% 10%;
+		padding: 3% 15% 5.5% 15%;
 	}
 
 	.header::after {
@@ -503,9 +533,9 @@ body {
 	}
 
 	.header-title-block {
-		padding-left: 0.6%;
-		font-size: 3.4vw;
-		line-height: 4vw;
+		padding-left: 1%;
+		font-size: 4vw;
+		line-height: 5vw;
 	}
 
 	.header-title-description {
@@ -514,27 +544,27 @@ body {
 	}
 
 	.header-app-links-container {
-		margin-top: 11%;
+		margin-top: 15%;
 	}
 
 	.app-links {
-		width: 57%;
+		width: 45%;
 		margin: 0 auto;
 	}
 
 	.mobile-app-link-button {
-		width: 20vw;
-		height: 5vw;
+		width: 14vw;
+		height: 3vw;
 		margin: 0;
-		font-size: 1vw;
+		font-size: 0.7vw;
 		text-align: left;
 	}
 
 	.app-icon {
 
 		fill: #fff;
-		width: 2.5vw;
-		transform: translate(-100%,60%);
+		width: 2vw;
+		transform: translate(-60%, 50%);
 	}
 
 	.bold-text {
@@ -542,8 +572,8 @@ body {
 	}
 
 	.button-content {	
-		margin: 0 0 0 25%;
-		transform: translate(0%,-10%)
+		margin: 0 0 0 20%;
+		transform: translate(0%, -20%)
 	}
 
 	.article {
@@ -551,23 +581,23 @@ body {
 	}
 
 	.article-title {
-		font-size: 6vw;
-		margin: 0 0 0 50vw;
+		font-size: 4vw;
+		margin: 0 0 3vw 50vw;
 	}
 
 	.article:nth-of-type(2n) .article-title {
-		margin: 0 0 0 10vw;
+		margin: 0 60vw 3vw 10vw;
 	}
 
 	.article-image {
-		width: 30vw;
-		top: -1vw;
-		left: 15vw;
+		width: 28vw;
+		top: -3vw;
+		left: 20vw;
 	}
 
 	.article:nth-of-type(2n) .article-image {
-		width: 48vw;
-		top: 0vw;
+		width: 47vw;
+		top: -2vw;
 		left: 40vw;
 	}
 
@@ -580,11 +610,11 @@ body {
 	}
 
 	.articlecle-small-number-container {
-	width: 1.7vw;
+	width: 1.2vw;
 	}
 
 	.article-small-number {
-		font-size: 1.5vw;
+		font-size: 1vw;
 	}
 
 	.article-small-number::after {
@@ -593,12 +623,12 @@ body {
 	}
 
 	.article-name {
-		font-size: 2.5vw;
+		font-size: 1.7vw;
 		margin: 0 0 0 1vw;
 	}
 
 	.article-text, .article2-text {
-		font-size: 1.2vw;
+		font-size: 1vw;
 	}
 
 	.article2 {
@@ -628,15 +658,19 @@ body {
 	}
 
 	.article2-name-text-container {
-	margin: 9vw 10vw 12vw 6vw;
+	margin: 10vw 15vw 12vw 6vw;
+	}
+
+	.article2-text-container {
+		margin: 2vw 0 0 0;
 	}
 
 	.article2-name {
-	font-size: 4vw;
+	font-size: 3.5vw;
 	}
 
 	.article2-text {
-		font-size: 1.5vw;
+		font-size: 1vw;
 	}
 
 	.article2:nth-of-type(2n) .article2-picture-container {
@@ -664,26 +698,34 @@ body {
 	.footer-square-logo-container {
 		display: flex;
 		justify-content: space-between;
-		width: 60%;
+		width: 35%;
 		margin: 0 auto;
 	}
 
+	.square-logo {
+		width: 4.5vw;
+		margin: 15% 12%;
+	}
+
 	.square-logo-container {
-		width: 11vw;
+		width: 6vw;
+		height: 6vw;
+		min-width: 6vw;
+		min-height: 6vw;
 		border-radius: 2vw;
-		margin: 0;
+		margin: auto 0 auto 0;
 	}
 
 	.footer-title {
-		font-size: 5vw;
+		font-size: 3vw;
 	}
 
 	.footer-title-description {
-		font-size: 2vw;
+		font-size: 1vw;
 	}
 
 	.footer-app-links-container {
-		width: 78%;
+		width: 67%;
 		margin: 8% auto 0 auto;
 	}
 
