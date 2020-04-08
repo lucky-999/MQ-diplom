@@ -288,25 +288,30 @@ body {
 
 .footer {
 	background-color: #0a0e34;
-	position: relative;
-	font-family: OpenSans, arial, sans-serif;
 	color: #fff;
 	text-transform: uppercase;
 	padding: 31% 6.25% 3% 6.25%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+
 }
 
 .footer::after {
 	content: "";
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background-color: #0a0e34;
 	position: absolute;
 	top: 0;
-	bottom: 0;
 	left: 0;
 	right: 0;
-	opacity: 0.1;
-	background-color: #080d30;
+	bottom: 0;
+	opacity: 0.9;
+}
+
+.footer-content {
+	position: relative;
+	z-index: 2;
 }
 
 .square-logo-container {
@@ -353,8 +358,7 @@ body {
 	background-image: url("../images/football_767.jpg");
 	}
 
-	.footer::after {
-	content: "";
+	.footer {
 	background-image: url(../images/game_767.jpg);
 	}
 }
@@ -377,10 +381,7 @@ body {
 @media (min-width: 641px) and (max-width: 960px) {
 	.header {
 		padding: 5% 8% 12% 8%;
-	}
-
-	.header {
-	background-image: url("../images/football_1280.jpg");
+		background-image: url("../images/football_1280.jpg");
 	}
 	
 	.header-logo {
@@ -495,12 +496,8 @@ body {
 	}
 
 	.footer {
-		padding: 16% 5% 2.5% 5%;
-	}
-
-	.footer::after {
-		content: "";
 		background-image: url(../images/game_1280.jpg);
+		padding: 16% 5% 2.5% 5%;
 	}
 
 	.footer-title-container {
@@ -530,10 +527,7 @@ body {
 @media (min-width: 961px) {
 	.header {
 		padding: 3% 15% 5.5% 15%;
-	}
-
-	.header {
-	background-image: url("../images/football_1920.jpg");
+		background-image: url("../images/football_1920.jpg");
 	}
 	
 	.header-logo {
@@ -695,11 +689,7 @@ body {
 	}
 
 	.footer {
-		padding: 11% 0 2.5% 0;	
-	}
-
-	.footer::after {
-		content: "";
+		padding: 11% 0 2.5% 0;
 		background-image: url(../images/game_1920.jpg);
 	}
 
